@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixel-wise Labeling</title>
+</head>
+<body>
+    <button (click)="onClick()"></button>
+    <canvas #image_canvas [id]="canvas_id" (mousewheel)="onMouseWheel($event)" (mousemove)="onMouseMove($event)" (mousedown)="onMouseDown($event)" (mouseup)="onMouseUp($event)"
+            style="width: 800px; height: 800px; background-color: yellow;"></canvas>
+    <canvas id="fake_canvas_temp" style="display: none;"></canvas>
+</body>
+</html>

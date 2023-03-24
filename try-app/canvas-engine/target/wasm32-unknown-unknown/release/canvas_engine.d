@@ -1,0 +1,1 @@
+C:\Users\deryu\Desktop\Private\pixel-wise-canvas\try-app\canvas-engine\target\wasm32-unknown-unknown\release\canvas_engine.wasm: C:\Users\deryu\Desktop\Private\pixel-wise-canvas\try-app\canvas-engine\src\lib.rs
